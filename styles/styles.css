@@ -1,0 +1,158 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Myriad Pro; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:white; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+body {
+	background:url("../images/body-bg.jpg") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+}
+
+.wrapper {
+	margin:0 auto;
+	width:899px;
+}
+.header {
+	overflow:hidden;
+}
+h1 {
+	margin:38px 0 0 42px;
+	float:left;
+}
+.top-nav {
+	color:white;
+	float:right;
+	margin:50px 52px 0 0;
+}
+.top-nav li {
+	float:left;
+}
+.top-nav li a {
+	padding:6px 16px;
+	font:bold 15px Verdana;
+	color:white;
+}
+.top-nav li a:hover {
+	background:url('../images/link-bg.png') center center;
+}
+
+.slider {
+	margin:0 0 17px;
+	width:899;
+	height:358;
+	background: url('../images/slider-bot-gray.png') no-repeat bottom, url('../images/slider-bg.png');
+}
+.slider img {
+	padding: 16px 18px 14px;
+} 
+.slider ul {
+	overflow:hidden;
+	margin: 23px 10px 0 0;
+	float:right;
+}
+.slider ul li {
+	background:url('../images/button.png');
+	float: left;
+    height: 23px;
+    margin: 0 10px 0 0;
+    width: 21px
+}	
+
+.slider h2 {
+	font-size:17px;
+	color:white;
+	float:left;
+	margin: 23px 0 0 28px;
+}
+.information {
+	width:899px;
+	height:493px;
+	overflow:hidden;
+	background:url('../images/content-bg.png');
+}
+
+
+.information ul li.design {
+	background:url('../images/design-icon.png') no-repeat;
+}
+
+.information ul li.build {
+	background:url('../images/build-icon.png') no-repeat;
+}
+.information ul li.manage {
+	/* background:url('../images/manage-icon.png') no-repeat; */
+}
+.information ul li {
+	margin-left:22px;
+	color:white;
+	float:left;
+	width:271px;
+	height:178px;
+}
+.information ul li p {
+	background:url('../images/li-shadow.png');
+}
+h4 {
+	margin:0 0 0 25px;
+	color:white;
+	font-size:18px;
+}
+
+.information ul li p {
+	border-top:2px dotted white;
+	padding:10px 5px 0 5px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
